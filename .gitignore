@@ -1,6 +1,5 @@
 node_modules/
 vendor/
 .env
-_to_delete/
 .phpunit.result.cache
 .phpunit.cache/

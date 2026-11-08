@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-  "build:css": "sass --load-path=node_modules --quiet-deps --silence-deprecation=import scss/main.scss public/css/main.css",
+  "build:css": "sass --no-source-map --load-path=node_modules --quiet-deps --silence-deprecation=import scss/main.scss public/css/main.css",
   "build:js": "mkdir -p public/js && cp node_modules/bootstrap/dist/js/bootstrap.bundle.min.js public/js/",
   "build": "npm run build:css && npm run build:js"
 },

@@ -16,7 +16,7 @@ Après chaque écriture en base, un message est affiché (message flash).
 
 ## Prérequis
 
-- PHP 8.1 ou plus (extension `pdo_mysql`)
+- PHP 8.4 ou plus (extension `pdo_mysql`). Avec une version plus ancienne, utiliser `composer install --no-dev` (le site fonctionne, seuls les tests et PHPStan sont absents)
 - [Composer](https://getcomposer.org/)
 - MySQL 8 ou MariaDB
 - Node.js et npm (pour compiler le Sass)
